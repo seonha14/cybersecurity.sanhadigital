@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanha Digital Technology</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #0f0f0f;
+      color: #e0ffe0;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      max-width: 1200px;
+      margin: auto;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav h1 {
+      color: #9aff00;
+      font-weight: 600;
+    }
+    nav ul {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+    nav ul li a {
+      color: #e0ffe0;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    nav ul li a:hover {
+      color: #9aff00;
+    }
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(to bottom right, rgba(20, 20, 20, 0.8), rgba(0, 0, 0, 0.6));
+    }
+    .hero h2 {
+      font-size: 3rem;
+      color: #9aff00;
+    }
+    .hero p {
+      max-width: 700px;
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #cccccc;
+    }
+    .cta {
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      background: #9aff00;
+      border: none;
+      color: #000;
+      font-weight: 600;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .cta:hover {
+      background: #bfff3c;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px 0 rgba(0, 255, 0, 0.25);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    footer {
+      background: #111;
+      color: #9aff00;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Sanha Digital Technology</h1>
+      <ul>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#services">Layanan</a></li>
+        <li><a href="#testimonials">Testimoni</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <h2>Edukasi Cyber Security untuk Masyarakat</h2>
+    <p>Kami memberikan edukasi berkualitas tentang bahaya cybercrime dan cara melindungi diri di dunia digital.</p>
+    <button class="cta">Pelajari Lebih Lanjut</button>
+  </section>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <div class="glass">
+      <h3 style="color:#9aff00">Tentang Kami</h3>
+      <p>Sanha Digital Technology adalah platform edukasi yang berfokus pada keamanan siber, ditujukan untuk membangun kesadaran digital masyarakat Indonesia terhadap ancaman cybercrime.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section" data-aos="fade-up">
+    <div class="glass">
+      <h3 style="color:#9aff00">Layanan Kami</h3>
+      <ul>
+        <li>- Workshop & Webinar Keamanan Siber</li>
+        <li>- Simulasi Serangan & Analisa Risiko</li>
+        <li>- Edukasi Interaktif untuk Remaja & Profesional</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section" data-aos="fade-up">
+    <div class="glass">
+      <h3 style="color:#9aff00">Apa Kata Mereka</h3>
+      <p><em>"Platform ini membuka wawasan saya tentang pentingnya menjaga keamanan data pribadi."</em> — Rina A., Mahasiswa</p>
+      <p><em>"Sanha menjadi partner penting kami dalam pelatihan keamanan digital di perusahaan."</em> — Ahmad R., IT Officer</p>
+      <p><em>"Materi edukasi yang disampaikan sangat relevan untuk dunia pendidikan."</em> — Bu Lilis, Guru</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <div class="glass">
+      <h3 style="color:#9aff00">Hubungi Kami</h3>
+      <p>Email: sanha@sanhadigital.tech</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sanha Digital Technology. All rights reserved.</p>
+  </footer>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
